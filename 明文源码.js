@@ -1,8 +1,8 @@
 
 import { connect } from 'cloudflare:sockets';
 
-let userID = '';
-let proxyIP = '';
+let userID = '8e204b32-b4bb-4adc-ab97-2d418adfac65';
+let proxyIP = 'proxyip.sg.fxxk.dedyn.io:443';
 let sub = '';
 let subConverter = 'SUBAPI.fxxk.dedyn.io';
 let subConfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini";
@@ -25,7 +25,7 @@ let go2Socks5s = [
 	'*.loadshare.org',
 ];
 let addresses = [];
-let addressesapi = [];
+let addressesapi = [https://cdn.jsdelivr.net/gh/wuhuayi2008/IP2009/ip1219,https://ip.164746.xyz/ipTop10.html];
 let addressesnotls = [];
 let addressesnotlsapi = [];
 let addressescsv = [];
